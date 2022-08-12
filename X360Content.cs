@@ -1,4 +1,4 @@
-﻿// Autor: Temple Of Horus
+// Autor: Temple Of Horus
 
 using System.Net;
 using System.Security.Cryptography;
@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace ConsoleApp12
 {
-    class Program
+    class X360Content
     {
         static void Main(string[] args)
         {
@@ -456,12 +456,12 @@ namespace ConsoleApp12
                                     // hexOfferId was found.
                                     else
                                     {
-                                        string hexOfferIdStart = "<hexOfferId>0x" + HexTitle.ToString("x");
+                                        string hexOfferIdStart = "<hexOfferId>0x";
                                         int GethexOfferIdFrom1 = itemNumContent.IndexOf(hexOfferIdStart) + hexOfferIdStart.Length;
                                         int GethexOfferIdTo1 = itemNumContent.IndexOf("</hexOfferId>");
                                         string GethexOfferId1 = itemNumContent.Substring(GethexOfferIdFrom1, GethexOfferIdTo1 - GethexOfferIdFrom1);
 
-                                        PageURL += HexTitle.ToString("x") + GethexOfferId1;
+                                        PageURL += GethexOfferId1;
                                     }
 
                                     // Parsing hexOfferId page.
