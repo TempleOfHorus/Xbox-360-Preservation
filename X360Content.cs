@@ -74,7 +74,7 @@ namespace ConsoleApp12
             Directory.CreateDirectory(ContentDirectory);
             string MarketDirectory = BaseDirectory + @"marketplace-xb.xboxlive.com\";
             Directory.CreateDirectory(MarketDirectory);
-            string TemporaryDirectory = @"D:\Xbox 360 Preservation\Temporary Files\";
+            string TemporaryDirectory = BaseDirectory + @"Temporary Files\";
             Directory.CreateDirectory(TemporaryDirectory);
 
             // Create txt files.
