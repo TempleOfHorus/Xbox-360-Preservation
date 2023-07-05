@@ -1,4 +1,4 @@
-I have written two programs to help preserve xbox 360 digital content. I know xcp files are encrypted and currently unusable, but I hope one day we will be able to decrypt them.
+Two programs to help preserve xbox 360 digital content.
 Xbox 360 Content Preservation program is for downloading files of a specified xbox 360 game using hex title id. I have implemented few tricks to obtain contentId for delisted/unreleased content, which mostly works for older titles.
 Xbox 360 Content Preservation Database program is to make backup of marketplace-xb.xboxlive.com site. 
 Backup of marketplace-xb.xboxlive.com [19.5.2022]: https://archive.org/details/database-of-marketplace-xb.xboxlive.com-19.5.2022.-7z
